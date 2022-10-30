@@ -1,16 +1,21 @@
-# chess_app
+# Flutter chess game
 
-A new Flutter project.
+Flutter chess game fully written on dart. In dependencies only [flutter_bloc](https://pub.dev/packages/flutter_bloc) library.
 
-## Getting Started
+![chess](https://user-images.githubusercontent.com/19287188/172387937-5b248aad-498c-4f8a-a1af-05abdc04499a.gif)
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+I work with this repo only when I've a free time. But I don't have enough )))
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+My main Idea is:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Separate logic and presentation ✅
+  - Models: contains logic
+  - UI: contains all ui widgets
+  - bloc: use for binder between model and ui  
+- Create logic that calculates available way for figure ✅
+- Add "winning" logic | <b>in progress</b> 👨‍💻|
+  - Сheckmate logic
+- Players take turns moving figures ✅
+- Add AI for playing with player | <b>in hoping</b> 🤖|
